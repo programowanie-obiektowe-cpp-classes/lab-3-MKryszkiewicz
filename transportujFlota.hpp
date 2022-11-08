@@ -10,6 +10,7 @@ unsigned int transportujFlota(unsigned int towar)
     {
         Statek* s1 = stocznia();
         licznik += (*s1).transportuj();
+        delete s1;
     }
 
     return 0;
