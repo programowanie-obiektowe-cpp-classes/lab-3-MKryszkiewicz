@@ -5,11 +5,12 @@
 unsigned int transportujFlota(unsigned int towar)
 {
     unsigned int licznik = 0;
+    Stocznia stocznia{};
     while (licznik < towar)
     {
-        Stocznia stocznia{};
         Statek* s1 = stocznia();
         licznik += (*s1).transportuj();
     }
+
     return 0;
 }
