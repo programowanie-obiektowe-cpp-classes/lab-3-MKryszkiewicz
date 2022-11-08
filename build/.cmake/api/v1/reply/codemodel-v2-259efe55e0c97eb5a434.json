@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "lab3_zal",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-a6bec0e5da2a988eb55f.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "zal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zal-Debug-b945204d9f9eeb69b2be.json",
+					"jsonFile" : "target-zal-Debug-a6c647dc17904290a863.json",
 					"name" : "zal",
 					"projectIndex" : 0
 				}

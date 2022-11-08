@@ -3,5 +3,10 @@
   "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/build",
   "command": "/usr/bin/g++  -I/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/include -g -o CMakeFiles/zal.dir/test.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/test.cpp",
   "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/test.cpp"
+},
+{
+  "directory": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/main.dir/main.cpp.o -c /home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/main.cpp",
+  "file": "/home/mat/github-classroom/programowanie-obiektowe-cpp-classes/lab-3-MKryszkiewicz/main.cpp"
 }
 ]
