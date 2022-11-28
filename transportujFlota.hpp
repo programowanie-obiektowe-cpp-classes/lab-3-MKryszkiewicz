@@ -4,14 +4,22 @@
 
 unsigned int transportujFlota(unsigned int towar)
 {
-    unsigned int licznik = 0;
-    Stocznia stocznia{};
-    while (licznik < towar)
+    unsigned int licznik_towar = 0;
+    unsigned int licznik_zaglowce = 0;
+    if (towar == 0)
     {
-        Statek* s1 = stocznia();
-        licznik += (*s1).transportuj();
-        delete s1;
+        return 0;
     }
-
+    else
+    {
+        while (licznik_towar < towar)
+        {
+            Stocznia stocznia{};
+            Statek* s1 = stocznia();
+            licznik_towar += (*s1).transportuj();
+            licznik_zaglowce ++;
+            delete s1;
+        }
+    }
     return 0;
 }
