@@ -24,5 +24,5 @@ unsigned int transportujFlota(unsigned int towar)
             delete s1;
         }
     }
-    return 0;
+    return licznik_zaglowce;
 }
